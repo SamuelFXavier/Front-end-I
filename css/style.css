@@ -1,0 +1,31 @@
+body*{
+    font-family: Poppins, sans-serif;
+    z-index: 2;
+}
+.navb *{
+    display: inline-block;
+}
+
+.produtos *{
+  display: inline-block;
+  justify-content: f;
+}
+
+.produtos p {
+    text-align: center;
+    display: block;
+}
+.produtos div{
+    /* viewport width = vw ele quebra a figura na no site melhor que pw */
+    padding: 1.5vw;
+    /* ele cria uma caixa envolta da figura EX: ridge* e posso escolher onde quero a borda por ex: border-top*/
+    border-top: /*double*/ ridge 20px;
+    border-bottom: ridge 20px purple;
+    border-radius: 10%;
+    margin: 1.5vw;
+    /* Aqui consigo criar um efeito 3D para o bloco de produto */
+    box-shadow: rgb(110, 110, 110) 20px 12px 50px 25px;
+/* Aqui consigo dar uma sensação de transparencia no fundo do bloco, tipo vidro */
+    background-color: rgba(116,116,116,0.5); 
+    z-index: 1;
+}
