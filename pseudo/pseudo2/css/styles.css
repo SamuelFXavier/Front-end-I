@@ -1,0 +1,21 @@
+/* PSEUDO ELEMENTO É UMA MANEIRA DE CRIAR CONTEUDO NO CSS */
+/* Pode desde que seja apenas visuais um texto por exemplo, só para vizualizar  */
+/* bASICAMENTE ELE CRIA AQUI NO CSS E NÃO ALTERA EM NADA O ELEMENTO NO HTML */
+*
+.item-radio input {
+    display: none;
+}
+
+label::before {
+     content: '' ;
+     width: 10px;
+     height: 10px;                 /* Está selecionando a label */
+     display: inline-block;
+     border-radius: 50%;
+     border: 2px solid black;       
+}
+
+a::after {
+    content: '[LINK]';
+           
+}

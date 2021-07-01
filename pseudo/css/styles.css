@@ -1,0 +1,32 @@
+
+body {
+    background-color: pink;
+}
+
+/* a {
+    text-decoration: none; TIRAR SUBLINHADO DEBAIXO DO TEXTO
+} */
+
+a:visited {
+    color: firebrick;     /* Aqui é para marcar o link que já foi cliclado pelo usuario */
+}
+a:hover {
+    text-decoration: underline; /*  */
+}
+
+a:focus {
+   background-color: rgba(0,0,0,0.5);
+}
+/* Pseudos - classe é utulizado com dois pontos */
+
+.exemplo {
+    width: 100px;
+    height: 50px;              /* Aqui estou criando uma caixa um bloco de exemplo para aplicar o hover */
+  display: block;
+  background-color: lime;
+  box-sizing: border-box;
+}
+
+.exemplo:hover {
+    border: 3px solid #333;     /* Aqui aplica aquela borda ao redo do item que você irá clicar no site */
+}
